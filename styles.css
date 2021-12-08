@@ -1,0 +1,553 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+    
+    
+
+
+body{
+   
+    background-color:#191c32;
+    font-family: 'Montserrat', sans-serif;
+    max-height: 100vh;
+    height: 100vh;
+    margin-bottom: 0px;
+    max-width: 320px;
+}
+
+
+.wrapper{
+    
+    color: aqua;
+    margin-top: 10vh;
+    
+}
+p{
+    color: #eee;
+    font-size: 0.5em;
+    margin-left: 0.2em;
+    width: 220px;
+}
+.brand span{
+    color: white;
+}
+h3{
+    padding: 2em 10px;
+    margin-top: 20px;
+    margin-left: -0.3em;
+}
+.sigueme{
+    color: white;
+    width: 65px;
+    height: 70vh;
+    padding: 2em 10px;
+    margin-top:-50px;
+    font-size: 0.5m;
+    margin-left: -0.8em;
+}
+
+.main{
+    margin:auto;
+    width: 50px;
+    height: 50vh;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: -400px;
+    margin-left: 90px;
+    
+}
+h1{
+    font-size: 1em;
+    color: white;
+    
+
+}
+.nombre{
+    color: aqua;
+    
+}
+button{
+    padding: 2px 5px;
+    background-color: aqua;
+    border: none;
+    border-radius: 0.4em;
+    margin-top: 30px;
+    box-shadow: 5px 5px 5px -5px gray;
+    font-size: 1rem 1rem;
+    margin-left: 0.1m;
+}
+
+.foto{
+    
+width: 250px;
+border: 7px solid aqua;
+height: 300px;
+margin-top: -3em;
+margin-left: 3em;
+display: flex;
+
+}
+
+.container-bar{
+    width: 30px;
+    max-width: 55px;
+    position: absolute;
+    left: 0;
+    margin-top: 90px;
+
+}
+
+.container-bar a{
+    display: block;
+    padding: 15%;
+    text-decoration: none;
+    font-size: 27px;
+    position: relative;
+    transition: all 500ms ease;
+    color: #fff;
+   
+}
+.container-bar a:hover{
+    border-radius: 1rem 0 0 1rem;
+    padding-left:  3rem;
+    box-shadow: 0 0 .5rem rgba(0,0,0,0.42);
+}
+.container-bar .icon-facebook-official{
+    background-color: #3b5998;
+    display: flex;
+    justify-content: left;
+    margin-left: -0.2em;
+    font-size: 1.5em;
+
+}
+.container-bar .icon-github-squared{
+    background-color: rgb(73, 73, 73);
+    display: flex;
+    justify-content: left;
+    margin-left: -0.2em;
+    font-size: 1.5em;
+
+}
+.container-bar .icon-twitter{
+    background-color: #00acee;
+    display: flex;
+    justify-content: left;
+    margin-left: -0.2em;
+    font-size: 1.5em;
+
+}
+.container-bar .icon-instagram{
+    background-color:#EE446D;
+    border-radius: 0px 0px 5px 0px;
+    display: flex;
+    justify-content: left;
+    margin-left: -0.2em;
+    font-size: 1.5em;
+
+}
+.container-bar #tittle{
+    position: fixed;
+    background-color: rgb(73, 73, 73);
+    padding: 6px;
+    border-radius: 3px;
+    font-size: 15px;
+    margin-top: 10px;
+    transition: all 500ms ease;
+   opacity: 0;
+   visibility: hidden;
+
+}
+.container-bar a:hover #tittle{
+    opacity: 1;
+   visibility: visible;
+   margin-left: 10px;
+}
+.container-bar #tittel:after{
+    position: absolute;
+    content: none;
+    border-left: 7px solid transparent;
+    border-right: 6px solid rgb(73, 73, 73);;
+    border-top: 7px solid transparent;
+    border-bottom: 7px solid transparent;
+    right: 100%;
+    top: 8px;
+
+}
+
+/*sigue la seccion proyectos*/
+
+.portafolio{
+    display: flex;
+    margin-left: 3.8em;
+    color: white;
+    margin-top: 4em;
+    padding: 1.5em;
+    font-size: 1em;
+    width: 50vw;
+}
+.p1{
+    display: flex;
+    justify-content: center;
+    padding: 0.5em;
+    color: white;
+    margin-left: 6em;
+    width: 200px;
+    font-size: 0.8em;
+    margin-top: 1em;
+}
+
+.js{
+    display: flex;
+    padding: 5px;
+    margin-left: 80px;
+    margin-top: 20px;
+    font-size: 0.6em;
+   
+}
+.html{
+    display: flex;
+    padding: 5px;
+    margin-left: 160px;
+    margin-top: -20px;
+    font-size: 0.5em;
+}
+.css{
+    display: flex;
+    padding: 5px;
+    margin-left: 200px;
+    margin-top: -20px;
+    font-size: 0.5em;
+}
+
+.subtitulo{
+display: flex;
+margin-left:80px;
+margin-top: 20px;
+color: white;
+font-size: 0.8em;
+}
+img{
+    width: 200px;
+    height:300px;
+}
+.subrayado{
+    display: flex;
+    height: 4px;
+    width: 20px;
+    background-color: aqua;
+    margin-left: 5.3em;
+    margin-top: -20px;
+}
+.pagina1{
+    margin-left: 5em;
+}
+.pagina2{
+    margin-left: 5em;
+}
+.pagina3{
+    margin-left:5em;
+}
+.pagina4{
+    margin-left: 5em;
+}
+/*seccion de contacto*/
+.contacto-tittle{
+    color:#191c32;
+    display: flex;
+    font-size: 0.8em;
+    padding: 1em;
+    margin-left: 65px;
+
+}
+.parrafo{
+    color: black;
+    display: flex;
+    margin-left: 80px;
+   width: 200px;
+   font-size: 0.7em;   
+}
+
+
+.section-contact{
+    background-color: white;
+    margin: 0 auto;
+    
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    width: 190px;
+    margin-left: 3.5em;
+}
+
+form input{
+padding: 10px 20px;
+margin-bottom: 1em;
+background: none;
+border: none;
+border-bottom: 1px solid black;
+color: #191c32;;
+margin-left: 1.5em;
+
+}
+textarea{
+    height: 150px;
+    background: none;
+    color: #191c32;
+    padding: 1.5em;
+    border: 1px solid black;
+    margin-left: 1.6em;
+}
+.boton-submit{
+    padding: 10px 20px;
+    margin: 1em;
+    border: none;
+    text-transform: uppercase;
+    background-color: aqua;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px -5px gray;
+    margin-left: 1.5em;
+    
+}
+.boton-submit:hover{
+    background-color: aquamarine;
+}
+h4{
+    font-size: 0.8em;
+    margin-left: 6em;
+}
+.p2{
+    color: black;
+    margin-left: 75px;
+    width: 200px;
+}
+.btn-social{
+    margin-left: 4.5em;
+    box-shadow: 5px solid grey  ;
+   margin-top: -1em;
+   width: 200px;
+}
+#facebook{
+   background-color:  #3b5998;
+   color: white;
+}   
+#twitter{
+    background-color:  #00acee;
+    color: white;
+}
+#github{
+    background-color: rgb(73, 73, 73); 
+    color: white;   
+}
+#instagram{
+    background-color: #EE446D;
+    color: white;
+}
+
+@media screen and (min-width: 678px) {
+ 
+    p{
+        color: #eee;
+        font-size: 1em;
+        margin-left: 0.2em;
+        width: 270px;
+    }
+    button{
+        padding: 8px 30px;
+        background-color: aqua;
+        border: none;
+        border-radius: 0.4em;
+        margin-top: 30px;
+        box-shadow: 5px 5px 5px -5px gray;
+        font-size: 1rem 1rem;
+        margin-left: 0.1m;
+    }
+    
+    h3{
+        padding: 2em 10px;
+        margin-top: 20px;
+        margin-left: -0.3em;
+    }
+
+    h1{
+        font-size: 1.5em;
+        color: white;
+    }
+    .sigueme{
+        color: white;
+        width: 90vw;
+        height: 70vh;
+        padding: 2em 10px;
+        margin-top:-60px;
+        font-size: 13px;
+        margin-left: -0.8em;
+    }
+    .container-bar{
+        width: 40px;
+        max-width: 55px;
+        position: absolute;
+        left: 0;
+        margin-top: 90px;
+    
+    }
+    
+    .foto{
+    width: 250px;
+    border: 7px solid aqua;
+    height: 270px;
+    margin-top: -18em;
+    margin-left: 24em;
+    display: flex;
+ } 
+
+  .portafolio{
+    display: flex;
+    margin-left: 2.5em;
+    color: white;
+    margin-top: 4em;
+    padding: 1.5em;
+    font-size: 1.5em;
+    width: 50vw;
+}  
+.subrayado{
+    display: flex;
+    height: 3px;
+    width: 35px;
+    background-color: aqua;
+    margin-left: 5.8em;
+    margin-top: -33px;
+}
+.p1{
+    display: flex;
+    justify-content: center;
+    padding: 0.5em;
+    color: white;
+    margin-left: 5.5em;
+    width: 500px;
+    font-size: 1em;
+    margin-top: 1em;
+}
+.js{
+    display: flex;
+    padding: 5px 8px;
+    margin-left: 90px;
+    margin-top: 20px;
+    font-size: 0.6em;
+}
+.html{
+    display: flex;
+    padding: 5px 8px;
+    margin-left: 170px;
+    margin-top: -20px;
+    font-size: 0.6em;
+}
+.css{
+    display: flex;
+    padding: 5px 8px;
+    margin-left: 220px;
+    margin-top: -20px;
+    font-size: 0.6em;
+}
+.subtitulo{
+    display: flex;
+    margin-left:90px;
+    margin-top: 20px;
+    color: white;
+    font-size: 1em;
+}
+.pagina1{
+    margin-left: 5.5em;
+}
+.pagina2{
+    margin-left: 16em;
+    margin-top: -2em;
+}
+.pagina3{
+    margin-left:5.5em;
+    margin-top: 2em;
+}
+.pagina4{
+    margin-left: 16em;
+    margin-top: -2em;
+}
+.section-contact{
+    background-color: white;
+    width: 100vw;
+}
+.contacto-tittle{
+    color:#191c32;
+    display: flex;
+    font-size: 1.5em;
+    padding: 1em;
+    margin-left: 65px;
+}
+.parrafo{
+    color: black;
+    display: flex;
+    margin-left: 90px;
+    width:35em;
+    font-size: 1em;   
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    width: 20em;
+    margin-left: 4em;
+}
+h4{
+    font-size: 1.5em;
+    margin-left: 3.4em;
+}
+.p2{
+    color: black;
+    margin-left: 82px;
+    width: 596px;
+}
+#facebook{
+    background-color:  #3b5998;
+    color: white;
+    margin-left: 1em;
+ }   
+ #twitter{
+     display: flex;
+     background-color:  #00acee;
+     color: white;
+     margin-left: 12em;
+     margin-top: -2.3em;   
+ }
+ #github{
+     background-color: rgb(73, 73, 73); 
+     color: white;
+     margin-left: 21.5em;  
+     margin-top: -2.2em;
+     display:flex;
+ }
+ #instagram{
+     background-color: #EE446D;
+     color: white;
+     display: flex;
+     margin-left: 420px;
+     margin-top: -2.2em;
+ }
+a{
+    text-decoration: none;
+}
+ 
+
+
+
+
+
+
+}
+
+
+    
